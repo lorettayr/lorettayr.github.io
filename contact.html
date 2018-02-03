@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+    <head>
+            <meta charset="utf-8">
+            <title>My First HTML5 Web Page</title>
+
+            <link rel="stylesheet" href="./css/style01.css">
+    </head> 
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>My COMWorks Pte Ltd</h1>
+            </header>
+            <nav>
+                <a href="#">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Experience</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Belief</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Contact</a>
+            </nav>
+            <article>
+                <section>
+                    <form class="contact_form" action="#" method="post" name="contact_form">
+                        <ul>
+                        
+                                <h2>Contact Us</h2>
+                                <span class="required_notification">*Denote required fields</span><br><br>
+                            
+                                <label for="name">Name</label>
+                                <input type="name" placeholder="Loretta Tan" required />
+                                <span class="form_hint"> Name is reequired</span>
+                                <br><br>
+
+                                <label for="email">Email</label>
+                                <input type="email" placeholder="someone@example.com" required />
+                                <span class="form_hint">Enter proper email format, i.e someone@example</span><br><br>
+
+                                <label for="url">Website</label>
+                                <input type="url" placeholder="https://example.com" required pattern="(https|https)://.+" />
+                                <span class="form_hint">Enter valid URL format</span>
+                                <br><br>
+                    
+                            
+                                <label for="comments">Comments</label>
+                                <textarea name="message" cols"50" rows="10"></textarea><br><br>
+                        
+                                <button class="submit" type="submit"> Submit Form</button>
+            
+                        </ul>
+
+                    </form>
+                 </section>
+
+                
+            </article>
+            <aside>
+                <h3>Mobile App Development Service</h3>
+                <ul>
+                    <li><a href="#">Benefits</a></li>
+                    <li><a href="#">Rates</a></li>
+                    <li><a href="#">Portfoilo</a></li>
+                  </ul>
+                <p>
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum 
+                        deleniti atque corruptiquos dolores et quas molestias excepturi sint occaecati cupiditate 
+                        non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                        <a href="#">contact us now</a>
+                    </p>
+
+
+            </aside>
+
+            <footer>
+                Copyright &copy; COMWork Pte Ltd
+            </footer>
+        </div>
+    </body>
+</html>

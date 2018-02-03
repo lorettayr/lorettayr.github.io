@@ -1,0 +1,17 @@
+h1 {
+    background-color: #440a8f7e;
+    color: yellow;
+    width:240px;
+}
+
+p{
+    background: green;
+    color:black;
+
+}
+
+.nice {
+    background: #ffffff;
+    font-style: bold;
+}
+
